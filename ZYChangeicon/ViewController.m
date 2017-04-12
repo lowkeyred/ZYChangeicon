@@ -39,6 +39,11 @@
         
     }];
 }
+- (IBAction)defaulticon:(id)sender {
+    [[UIApplication sharedApplication] setAlternateIconName:nil completionHandler:^(NSError * _Nullable error) {
+        
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
